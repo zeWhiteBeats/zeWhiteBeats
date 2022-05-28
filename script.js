@@ -4,7 +4,7 @@ document.querySelector("#input").addEventListener("keydown", (event) => {
     addItem(input.value);
   }
     
-});
+}}
 
 document.querySelector("#add_item").addEventListener("click", () => {
   const input = document.querySelector("#input");
@@ -35,7 +35,7 @@ function addItem(input) => {
   checkIcon.style.color = "lightgray";
   checkIcon.addEventListener("click", () => {
     checkIcon.style.color = "limegreen";
-  })
+  )})
   div.appendChild(checkIcon);
 
   trashIcon.className = "fas fa-trash";
