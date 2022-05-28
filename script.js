@@ -45,6 +45,4 @@ function text(form){
 
   item.appendChild(text);
   item.appendChild(div);
-
-  document.querySelector("#to_do_list").appendChild(item);
   document.querySelector("#input").value = "";
