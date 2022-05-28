@@ -20,13 +20,13 @@ addItem = (input) => {
 }
   item.className = "item";
   text.textContent = input;
-  function text(form){
-    if(strlen(form.searc.value)>4){
-      alert("длина текста не совпадает");
-      return false;
-      }
-    else
-      return true;
+function text(form){
+  if(strlen(form.searc.value)>4){
+    alert("длина текста не совпадает");
+    return false;
+  }
+  else
+    return true;
 }
 
   checkIcon.className = "fas fa-check-square";
