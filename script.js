@@ -20,8 +20,15 @@ addItem = (input) => {
 }
   item.className = "item";
   text.textContent = input;
-if (text == 0){
-  return
+  function text(form){
+    if(strlen(form.searc.value)>4){
+      alert("длина текста не совпадает");
+      return false;
+      }
+    else
+      return true;
+}
+</script>
 
   checkIcon.className = "fas fa-check-square";
   checkIcon.style.color = "lightgray";
