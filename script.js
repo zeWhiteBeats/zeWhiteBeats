@@ -46,3 +46,4 @@ function text(form){
   item.appendChild(text);
   item.appendChild(div);
   document.querySelector("#input").value = "";
+}}
