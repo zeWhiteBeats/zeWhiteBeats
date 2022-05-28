@@ -42,7 +42,7 @@ function addItem(input) => {
   trashIcon.style.color = "darkgray";
   trashIcon.addEventListener("click", () => {
     item.remove();
-    })
+    }
   div.appendChild(trashIcon);
 
   item.appendChild(text);
