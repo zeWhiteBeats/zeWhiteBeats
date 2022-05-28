@@ -18,14 +18,14 @@ document.querySelector("#add_item").addEventListener("click", () => {
     else{
       return true;
     }
-  }
+  
 addItem = (input) => {
   const item = document.createElement("div");
   const div = document.createElement("div");
   const checkIcon = document.createElement("i");
   const trashIcon = document.createElement("i");
   const text = document.createElement("p");
-
+}
   item.className = "item";
   text.textContent = input;
 
