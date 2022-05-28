@@ -25,7 +25,7 @@ function text(form){
     alert("длина текста не совпадает");
     return false;
   }
-  else
+  else{
     return true;
 }
 
