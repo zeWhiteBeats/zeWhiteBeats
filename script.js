@@ -9,7 +9,7 @@ document.querySelector("#input").addEventListener("keydown", (event) => {
 document.querySelector("#add_item").addEventListener("click", () => {
   const input = document.querySelector("#input");
   addItem(input.value);
-}};
+)};
   function text(form){
     if(strlen(form.searc.value)>0){
       alert("длина текста не совпадает");
