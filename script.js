@@ -35,7 +35,7 @@ function addItem(input) => {
   checkIcon.style.color = "lightgray";
   checkIcon.addEventListener("click", () => {
     checkIcon.style.color = "limegreen";
-  )})
+  )
   div.appendChild(checkIcon);
 
   trashIcon.className = "fas fa-trash";
