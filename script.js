@@ -28,7 +28,6 @@ addItem = (input) => {
     else
       return true;
 }
-</script>
 
   checkIcon.className = "fas fa-check-square";
   checkIcon.style.color = "lightgray";
