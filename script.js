@@ -17,7 +17,9 @@ addItem = (input) => {
   const checkIcon = document.createElement("i");
   const trashIcon = document.createElement("i");
   const text = document.createElement("p");
-
+if (item == 0){
+  return
+}
   item.className = "item";
   text.textContent = input;
 
