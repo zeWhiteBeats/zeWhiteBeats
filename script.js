@@ -18,9 +18,6 @@ document.querySelector("#add_item").addEventListener("click", () => {
       return true;
     }
   }
-};
-
-
 addItem = (input) => {
   const item = document.createElement("div");
   const div = document.createElement("div");
