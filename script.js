@@ -17,11 +17,11 @@ addItem = (input) => {
   const checkIcon = document.createElement("i");
   const trashIcon = document.createElement("i");
   const text = document.createElement("p");
-if (text == 0){
-  return
 }
   item.className = "item";
   text.textContent = input;
+if (text == 0){
+  return
 
   checkIcon.className = "fas fa-check-square";
   checkIcon.style.color = "lightgray";
