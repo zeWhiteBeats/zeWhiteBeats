@@ -31,5 +31,16 @@ document.querySelector("#input").addEventListener("keydown", function(event) {
     text.textContent = input;
   document.body.append(text)
   
+ trashIcon.addEventListener("click", () => {
+    item.remove();
+  })
+  div.appendChild(trashIcon);
+
+  item.appendChild(text);
+  item.appendChild(div);
+
+  document.querySelector("#to_do_list").appendChild(item);
+  document.querySelector("#input").value = "";
+}
 
   };
