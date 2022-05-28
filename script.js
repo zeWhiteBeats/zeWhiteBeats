@@ -41,4 +41,5 @@ document.querySelector("#input").addEventListener("keydown", function(event) {
 
   document.querySelector("#to_do_list").appendChild(item);
   document.querySelector("#input").value = "";
+
 };
