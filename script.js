@@ -46,5 +46,8 @@ addItem = (input) => {
   item.appendChild(text);
   item.appendChild(div);
   document.querySelector("#input").value = "";
-    }
+  }
+                                                     }
+                                                     }
+}
                                                      )
