@@ -71,11 +71,6 @@ body{
   color: white;
 }
 
-#to_do_list{
-  width: 500px;
-  margin: auto;
-}
-
 .item{
   display: flex;
   justify-content: space-between;
