@@ -4,7 +4,7 @@ document.querySelector("#input").addEventListener("keydown", (event) => {
     addItem(input.value);
   }
     
-}}
+}
 
 document.querySelector("#add_item").addEventListener("click", () => {
   const input = document.querySelector("#input");
