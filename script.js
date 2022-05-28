@@ -21,7 +21,7 @@ addItem = (input) => {
   item.className = "item";
   text.textContent = input;
 function text(form){
-  if(strlen(form.searc.value)>4){
+  if(strlen(form.searc.value)>0){
     alert("длина текста не совпадает");
     return false;
   }
@@ -48,5 +48,3 @@ function text(form){
 
   document.querySelector("#to_do_list").appendChild(item);
   document.querySelector("#input").value = "";
-}
-}
