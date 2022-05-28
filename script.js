@@ -25,7 +25,7 @@ addItem = (input) => {
   const checkIcon = document.createElement("i");
   const trashIcon = document.createElement("i");
   const text = document.createElement("p");
-}
+
   item.className = "item";
   text.textContent = input;
 
@@ -41,9 +41,10 @@ addItem = (input) => {
   trashIcon.style.color = "darkgray";
   trashIcon.addEventListener("click", () => {
     item.remove();
-  })
+    })
   div.appendChild(trashIcon);
 
   item.appendChild(text);
   item.appendChild(div);
   document.querySelector("#input").value = "";
+}
